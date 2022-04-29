@@ -1,15 +1,19 @@
 # Dallas_Building_Fire
 
+
+**Plotting ideas**
+
 Sprinkler & Fire Alarm vs % Loss
 Time of Fire vs frequency
 Fire vs weather
 % loss vs battalion
 per structure type
-
-**stories vs % loss**
-
+stories vs % loss
 % loss vs structure type
-Many of these, we can also begin searching for correlation with that magical heatmap chart.  Still probably should demonstrate whether some inputs affect likelihood of a fire.
+
+
+Many of these, we can also begin searching for correlation with that magical heatmap chart.  
+Still probably should demonstrate whether some inputs affect likelihood of a fire.
 
 
 Data cleaning & prep:
