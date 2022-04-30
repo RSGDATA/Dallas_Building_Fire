@@ -41,3 +41,6 @@
 |                                                                                                                       	|                 	|           	|                    	|            	|
 | Still probably should demonstrate whether some inputs affect likelihood of a fire.                                    	|                 	|           	|                    	|            	|
 |                                                                                                                       	|                 	|           	|                    	|            	|
+
+Other notes if we want more to do:
+Pull past weather data for City of Dallas for every day in range.  Use this to correlate frequency of fires with all available weather data (regression chart).
