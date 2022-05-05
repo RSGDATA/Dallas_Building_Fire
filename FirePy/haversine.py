@@ -1,5 +1,9 @@
 import math
-def haversine(lat1, lon1, lat2, lon2, unit='km')
+
+# Magical mathematical formula:
+# https://www.adamsmith.haus/python/answers/how-to-find-the-distance-between-two-lat-long-coordinates-in-python
+# Adapted to use as callable function that can returns kilometers by default or miles by option
+def haversine(lat1, lon1, lat2, lon2, unit='km'):
     # radius of the Earth in km
     R = 6373.0
 
@@ -22,6 +26,6 @@ def haversine(lat1, lon1, lat2, lon2, unit='km')
 
     distance = R * c
     
-    if unit='mi':
+    if unit=='mi':
         distance = distance * 0.621371
     return distance
