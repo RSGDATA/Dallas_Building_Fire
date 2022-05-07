@@ -4,6 +4,11 @@ import math
 # https://www.adamsmith.haus/python/answers/how-to-find-the-distance-between-two-lat-long-coordinates-in-python
 # Adapted to use as callable function that can returns kilometers by default or miles by option
 def haversine(lat1, lon1, lat2, lon2, unit='km'):
+    '''
+    Returns the distance between two sets of latitudes: lat, long, lat, long.
+    
+    Default unit = kilometers.  Can optionally include 'mi' as 5th parameter to return miles.
+    '''
     # radius of the Earth in km
     R = 6373.0
 
